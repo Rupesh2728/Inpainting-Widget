@@ -8,6 +8,7 @@
 <a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="80" height="80"/> </a>
 <a href="https://tailwindcss.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" alt="tailwind" width="80" height="80"/> </a>
 <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="80" height="80"/> </a>
+<a href="" target="_blank" rel="noreferrer"> <img src="./public/library.png" alt="git" width="220" height="80"/> </a>
 <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="80" height="80"/> </a>
 
 <h2 align="left">Features :</h2>
@@ -51,9 +52,12 @@
 
 <h2 align="left">Challenges and Solutions</h2>
 
-- Generating real-time mask irrespective of brush color.
+<h4>Challenge :</h4>
+<p> Generating a real-time mask independent of the brush color posed a significant technical challenge.</p>
 
-- Solution : 
+<h4>Solution :</h4>
+  
+<p> To overcome this, I analyzed the workflow of the react-canvas-draw library and its <CanvasDraw /> component in depth. By leveraging the useRef() hook and implementing advanced filtering techniques, I successfully generated the mask, ensuring it remains unaffected by variations in brush color. </p>
 
 
 <h2 align="left">Website Video</h2>
@@ -63,7 +67,7 @@
 - Please take a moment to watch and gain an understanding of the platform's offerings.
 
 
-https://github.com/user-attachments/assets/33fd9cbb-0cf3-4bf2-963f-7bd8317299d4
+https://github.com/user-attachments/assets/e810a006-c5f9-4e83-aeb0-f21a50298158
 
 
 <h2 align="left">Installation</h2>
